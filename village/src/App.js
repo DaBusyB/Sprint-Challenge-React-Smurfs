@@ -57,7 +57,7 @@ class App extends Component {
         </div>
         <Route
           path='/new-form'
-          render={props => <SmurfForm {...props} smurf={this.state.smurfs} />}
+          render={props => <SmurfForm {...props} addSmurf={this.addSmurf} />}
         />
        
        <Route
